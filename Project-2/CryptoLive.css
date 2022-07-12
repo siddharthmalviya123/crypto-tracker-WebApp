@@ -1,0 +1,36 @@
+body 
+{
+    /* background-color: rgb(228, 245, 151); */
+    
+    background: linear-gradient(#b5e48c, #457b9d);
+    background-repeat: no-repeat;
+}
+
+#main_container{
+    margin: 50px;
+    min-height: 800px;
+
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    
+}
+#main_table{
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+#th, #td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(22, 1, 1);
+  }
+  
+  tr:hover {background-color: rgb(124, 252, 198);}
+  
